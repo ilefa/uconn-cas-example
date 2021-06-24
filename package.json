@@ -1,0 +1,20 @@
+{
+  "name": "uconn-sso",
+  "version": "1.0.0",
+  "description": "UConn single-sign-on integration testing",
+  "main": "src/app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike M",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-cas-authentication": "^0.1.0",
+    "express-session": "^1.17.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.12",
+    "@types/express-session": "^1.17.3"
+  }
+}
